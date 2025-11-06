@@ -255,13 +255,6 @@
               "isWebApplication": false,
               "privilegeLevel": "",
               "threats": []
-            },
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove"
-              ],
-              "name": null
             }
           },
           {
@@ -529,8 +522,8 @@
               "hasOpenThreats": false,
               "isBidirectional": false,
               "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
+              "isPublicNetwork": true,
+              "protocol": "HTTP",
               "threats": []
             },
             "labels": [
@@ -704,7 +697,17 @@
                 "x": 190,
                 "y": 360
               }
-            ]
+            ],
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead"
+              ],
+              "name": null
+            }
           },
           {
             "shape": "trust-boundary-curve",
